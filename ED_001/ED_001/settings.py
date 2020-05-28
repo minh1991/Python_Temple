@@ -75,12 +75,12 @@ WSGI_APPLICATION = 'ED_001.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'orcl',
-        'USER': 'OC',
-        'PASSWORD': '12345678',
-        # 'HOST': '127.0.0.1',
-        'PORT': '1521', 
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'cbjlezmw',
+        'USER': 'cbjlezmw',
+        'PASSWORD': 'PdO25t6sFuMoKvVD8_bsWOnA_owVZQ6_',
+        'HOST': 'arjuna.db.elephantsql.com',
+        'PORT': '5432', 
     }
 }
 

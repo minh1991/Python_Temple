@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '$(+tlbk+7l-=c)+m)^pi(u1ehx@ui6f_evfnaf6%*rv84qi%t5'
+SECRET_KEY = '+h(3bls8!r^*^#k5=(q=8vfpts%a-2yaf0gi+(i3qvufw(9nh='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'ED_001.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cbjlezmw',
-        'USER': 'cbjlezmw',
-        'PASSWORD': 'PdO25t6sFuMoKvVD8_bsWOnA_owVZQ6_',
-        'HOST': 'arjuna.db.elephantsql.com',
-        'PORT': '5432', 
+        'NAME': 'eanzmwfw',
+        'USER': 'eanzmwfw',
+        'PASSWORD': 'aKq44Hnx8nP9YZNoYy4iuJDO0AY68bBm',
+        'HOST': 'john.db.elephantsql.com',
+        'PORT': '5432',
     }
 }
 

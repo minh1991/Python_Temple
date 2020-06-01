@@ -129,3 +129,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+
+# add Image
+MEDIA_URL = '/news_pictures/'
+MEDIA_ROOR = os.path.join(BASE_DIR, 'news_pictures')

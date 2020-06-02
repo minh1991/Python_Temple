@@ -1,3 +1,6 @@
 .margin_auto {
   margin: auto;
 }
+.bg_test {
+  background-color: red;
+}
